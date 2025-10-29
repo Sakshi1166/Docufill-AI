@@ -54,4 +54,5 @@ def admin():
     return render_template('admin.html', headers=headers, records=records)
 
 if __name__ == '__main__':
+
     app.run(debug=True)
